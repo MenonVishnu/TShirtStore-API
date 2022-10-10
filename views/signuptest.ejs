@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=
+    , initial-scale=1.0"
+		/>
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+		<title>POST form</title>
+	</head>
+	<body class="bg-dark text-white">
+		<div class="container mt-4 col-4 col-offset-6">
+			<h1 class="display-3">POST form</h1>
+			<form method="POST" action="/api/v1/signup" enctype="multipart/form-data">
+				<div class="mb-3">
+					<label for="name" class="form-label"> name</label>
+					<input
+						name="name"
+						type="text"
+						class="form-control"
+						id="name"
+						aria-describedby="emailHelp"
+					/>
+				</div>
+				<div class="mb-3">
+					<label for="email" class="form-label"> email</label>
+					<input
+						name="email"
+						type="text"
+						class="form-control"
+						id="email"
+						aria-describedby="emailHelp"
+					/>
+				</div>
+				<div class="mb-3">
+					<label for="password" class="form-label"> password</label>
+					<input
+						name="password"
+						type="password"
+						class="form-control"
+						id="password"
+						aria-describedby="emailHelp"
+					/>
+				</div>
+
+				<div class="mb-3">
+					<label for="photo" class="form-label">samplefile</label>
+					<input name="photo" type="file" class="form-control" id="photo" />
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>

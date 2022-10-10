@@ -1,0 +1,13 @@
+npm i 
+bcryptjs - package which allows developer for encryption 
+cloudinary -
+cookie-parser - 
+dotenv - package for storing secure information data
+express -
+express-fileupload 
+mongoose - Object database Modelling, MongoDB ODM that used to translate the code and its representation from MongoDB to Node.js server 
+jsonwebtoken 
+nodemailer - package to send mail
+stripe -
+razorpay - 
+validator -
